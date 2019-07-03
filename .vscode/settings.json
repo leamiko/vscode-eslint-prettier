@@ -1,0 +1,10 @@
+{
+    "prettier.eslintIntegration": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "html"
+    ],
+    "prettier.singleQuote": true,
+    "editor.formatOnSave": true
+}
