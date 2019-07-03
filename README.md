@@ -1,5 +1,7 @@
 # eslint prettier 环境搭建
 
+实现: js 代码自动 eslint 校验，prettier 进行格式化，比如自动加语句后的`;`,自动将双引号替换成单引号，当然你也可以自行配置你喜欢的格式化风格
+
 vscode 安装`eslint`、`prettier`插件
 
 用到的本地 npm 包
@@ -20,7 +22,7 @@ npm install --save-dev prettier eslint babel-eslint eslint-config-prettier eslin
 配置`.eslintrc.js`
 配置`.prettierrc.js`
 
-按配置 vs 项目级 settings.json,避免污染全局 settings.json
+按配置 vscode 项目级 settings.json,避免污染全局 settings.json
 `.vscode/settings.json`
 
 附上我的全局 settings.json 的配置
